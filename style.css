@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Archivo', sans-serif;
+  cursor: pointer;
+}
+
+html, body{
+  width: 100%;
+  background-color: #000000;
+}
+
+section{
+  width: 1441px;
+  margin: auto;
+  display: flex;
+  margin-top: 60px;
+}
+
+.left{
+  width: 780px;
+  background-color: #F9F6F1;
+  padding: 40px 185px 0 150px;
+}
+
+.logo{
+  margin-bottom: 140px;
+}
+
+.writeup h1{
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.writeup > p{
+  font-size: 18px;
+  line-height: 28px;
+  color: #595651;
+  margin-bottom: 20px;
+}
+
+.writeup-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.writeup-list p{
+  display: flex;
+  align-items: center;
+  color: #595651;
+  font-size: 18px;
+  gap: 15px;
+}
+
+.left button{
+  font-size: 18px;
+  background-color: #000000;
+  padding: 18px 28px;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 40px;
+}
+
+#partner{
+  margin-bottom: 10px;
+}
