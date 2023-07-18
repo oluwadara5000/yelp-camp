@@ -215,7 +215,7 @@ section {
 /* FOR SCREENS FROM 375px TO 450px */
 @media screen and (min-width: 375px) and (max-width: 450px) {
   section {
-    width: 380px;
+    width: 375px;
     margin: auto;
   }
 

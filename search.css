@@ -24,81 +24,86 @@ section {
   padding-bottom: 60px;
 }
 
-header{
+header {
   display: flex;
-padding: 60px 0;
-justify-content: space-between;
-align-items: center;
+  padding: 60px 0;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.left, .right{
+.navigation-bar {
+  display: none;
+}
+
+.left,
+.right {
   display: flex;
   align-items: center;
   gap: 30px;
 }
 
-.left p, .right p{
-  color: #5A5A5A;
+.left p,
+.right p {
+  color: #5a5a5a;
   font-weight: 700;
   font-size: 18px;
 }
 
-.right button{
+.right button {
   background-color: #ffffff;
   border: 0;
   font-size: 18px;
-  color: #5A5A5A;
+  color: #5a5a5a;
 }
 
-#login{
+#login {
   font-weight: normal;
-  
 }
 
-#create{
+#create {
   background-color: black;
   color: #ffffff;
   padding: 21px 28px;
   border-radius: 5px;
 }
 
-.search{
-  background-color: #F9F6F1;
+.search {
+  background-color: #f9f6f1;
   padding: 65px 55px;
   margin-bottom: 80px;
 }
 
-.search h1{
+.search h1 {
   font-size: 36px;
   margin-bottom: 18px;
 }
 
-.search p{
+.search p {
   width: 395px;
   font-size: 18px;
-  color: #5A5A5A;
+  color: #5a5a5a;
   line-height: 25px;
   margin-bottom: 18px;
 }
 
-input{
+input {
   width: 254px;
   padding: 20px 0;
   padding-left: 25px;
   font-size: 18px;
-  border: 1px solid #C9CAC5;
+  border: 1px solid #c9cac5;
   border-radius: 5px;
 }
 
-input:focus{
+input:focus {
   outline: none;
 }
 
-.fontAwesome{
-  font-family: Archivo, 'FontAwesome', sans-serif;
+.fontAwesome {
+  font-family: Archivo, "FontAwesome", sans-serif;
 }
 
-.input-div button{
+.input-div button {
   background-color: #000000;
   color: #ffffff;
   font-size: 16px;
@@ -109,56 +114,656 @@ input:focus{
   font-weight: 600;
 }
 
-.span-div{
+.span-div {
   margin-top: 20px;
+  border-bottom: 2px solid #c5c7c0;
+  width: max-content;
 }
 
-.span-div span{
+.span-div span {
   font-size: 18px;
-  text-decoration: underline;
 }
 
-.camps{
+.camps {
   display: grid;
   grid-template-columns: 360px 360px 360px;
   gap: 30px;
   margin-bottom: 80px;
 }
 
-.camps div{
+.camps div {
   padding: 15px;
-  border: 1px solid #C9CAC5;
+  border: 1px solid #c9cac5;
   /* height: 380px; */
   width: 360px;
   border-radius: 5px;
 }
 
-.camps div img{
+.camps div img {
   width: 100%;
   height: 182px;
   border-radius: 5px;
   margin-bottom: 15px;
 }
 
-.camps div h1{
+.camps div h1 {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 15px;
 }
 
-.camps div p{
+.camps div p {
   font-size: 18px;
   line-height: 25px;
   margin-bottom: 15px;
-   color: #5A5A5A;
+  color: #5a5a5a;
 }
 
-.camps div button{
+.camps div button {
   width: 100%;
-  border: 1px solid #C9CAC5;
+  border: 1px solid #c9cac5;
   background-color: #ffffff;
   padding: 17px 0;
   font-size: 18px;
   border-radius: 5px;
   font-weight: 800;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* MEDIA QUERIES */
+/* FOR SCREENS 374px and BELOW */
+@media screen and (max-width: 374px) {
+  section {
+    width: 100%;
+    margin: 0;
+    padding: 0 20px;
+    padding-bottom: 30px;
+  }
+
+  header {
+    padding: 30px 0;
+  }
+
+  .left p {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .navigation-bar {
+    display: block;
+    background-color: #f9f6f1;
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  .search {
+    padding: 35px 30px;
+    margin-bottom: 35px;
+  }
+
+  .search h1 {
+    margin-bottom: 10px;
+  }
+
+  .search p {
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  input {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .input-div button {
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    width: 100%;
+    margin: 0;
+    margin-top: 15px;
+  }
+
+  .span-div span {
+    font-size: 16px;
+  }
+
+  .camps {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .camps div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 375px TO 450px */
+@media screen and (min-width: 375px) and (max-width: 450px) {
+  section {
+    width: 375px;
+    margin: auto;
+    padding: 0 20px;
+    padding-bottom: 30px;
+  }
+
+  header {
+    padding: 30px 0;
+  }
+
+  .left p {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .navigation-bar {
+    display: block;
+    background-color: #f9f6f1;
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  .search {
+    padding: 35px 30px;
+    margin-bottom: 35px;
+  }
+
+  .search h1 {
+    margin-bottom: 10px;
+  }
+
+  .search p {
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  input {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .input-div button {
+    font-size: 16px;
+
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    width: 100%;
+    margin: 0;
+    margin-top: 15px;
+  }
+
+  .span-div span {
+    font-size: 16px;
+  }
+
+  .camps {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .camps div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 451px TO 525px */
+@media screen and (min-width: 451px) and (max-width: 525px) {
+  section {
+    width: 450px;
+    margin: auto;
+    padding: 0 20px;
+    padding-bottom: 30px;
+  }
+
+  header {
+    padding: 30px 0;
+  }
+
+  .left p {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .navigation-bar {
+    display: block;
+    background-color: #f9f6f1;
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  .search {
+    padding: 35px 30px;
+    margin-bottom: 35px;
+  }
+
+  .search h1 {
+    margin-bottom: 10px;
+  }
+
+  .search p {
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  input {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .input-div button {
+    font-size: 16px;
+
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    width: 100%;
+    margin: 0;
+    margin-top: 15px;
+  }
+
+  .span-div span {
+    font-size: 16px;
+  }
+
+  .camps {
+    display: block;
+    margin-bottom: 30px;
+    padding: 0 35px;
+  }
+
+  .camps div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 526px TO 600px */
+@media screen and (min-width: 526px) and (max-width: 600px) {
+  section {
+    width: 525px;
+    margin: auto;
+    padding: 0 50px;
+    padding-bottom: 30px;
+  }
+
+  header {
+    padding: 30px 0;
+  }
+
+  .left p {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .navigation-bar {
+    display: block;
+    background-color: #f9f6f1;
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  .search {
+    padding: 35px 30px;
+    margin-bottom: 35px;
+  }
+
+  .search h1 {
+    margin-bottom: 10px;
+  }
+
+  .search p {
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  input {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .input-div button {
+    font-size: 16px;
+
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    width: 100%;
+    margin: 0;
+    margin-top: 15px;
+  }
+
+  .span-div span {
+    font-size: 16px;
+  }
+
+  .camps {
+    display: block;
+    margin-bottom: 30px;
+    padding: 0 25px;
+  }
+
+  .camps div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 601px TO 685px */
+@media screen and (min-width: 601px) and (max-width: 685px) {
+  section {
+    width: 600px;
+    margin: auto;
+    padding: 0 70px;
+    padding-bottom: 30px;
+  }
+
+  header {
+    padding: 30px 0;
+  }
+
+  .left p {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .navigation-bar {
+    display: block;
+    background-color: #f9f6f1;
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  .search {
+    padding: 35px 30px;
+    margin-bottom: 35px;
+  }
+
+  .search h1 {
+    margin-bottom: 10px;
+  }
+
+  .search p {
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  input {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .input-div button {
+    font-size: 16px;
+
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    width: 100%;
+    margin: 0;
+    margin-top: 15px;
+  }
+
+  .span-div span {
+    font-size: 16px;
+  }
+
+  .camps {
+    display: block;
+    margin-bottom: 30px;
+    padding: 0 45px;
+  }
+
+  .camps div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 686px TO 767px */
+@media screen and (min-width: 686px) and (max-width: 767px) {
+  section {
+    width: 685px;
+    margin: auto;
+    padding: 0 70px;
+    padding-bottom: 30px;
+  }
+
+  header {
+    padding: 30px 0;
+  }
+
+  .left p {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .navigation-bar {
+    display: block;
+    background-color: #f9f6f1;
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  .search {
+    padding: 35px 30px;
+    margin-bottom: 35px;
+  }
+
+  .search h1 {
+    margin-bottom: 10px;
+  }
+
+  .search p {
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  input {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .input-div button {
+    font-size: 16px;
+
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    width: 100%;
+    margin: 0;
+    margin-top: 15px;
+  }
+
+  .span-div span {
+    font-size: 16px;
+  }
+
+  .camps {
+    display: block;
+    margin-bottom: 30px;
+    padding: 0 85px;
+  }
+
+  .camps div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 768px TO 840px */
+
+@media screen and (min-width: 768px) and (max-width: 840px) {
+  section {
+    width: 767px;
+    margin: auto;
+  }
 }
