@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Archivo", sans-serif;
+  cursor: pointer;
+}
+
+html,
+body {
+  width: 100%;
+  background-color: #000000;
+}
+
+section{
+  width: 1440px;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 0 150px;
+  padding-bottom: 80px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 55px;
+  margin-bottom: 60px;
+}
+
+.left,
+.right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.left p,
+.right p {
+  color: #5a5a5a;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.right button {
+  background-color: #ffffff;
+  border: 0;
+  font-size: 18px;
+  color: #5a5a5a;
+}
+
+#create{
+  background-color: #000000;
+  color: #ffffff;
+  padding: 21px 30px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.navigation-bar{
+  display: none;
+}
+
+.content{
+  display: flex;
+  gap: 35px;
+}
+
+.map{
+  padding: 55px;
+  border: 1px solid #DEDEDE;
+  border-radius: 5px;
+  height: max-content;
+}
+
+.campgrounds-container{
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.campgrounds-div{
+  padding: 55px;
+  border-radius: 5px;
+  border: 1px solid #DEDEDE;
+  height: max-content;
+}
+
+.camp-name div{
+width: 100%;
+}
+
+.camp-name div img{
+  width: inherit;
+  margin-bottom: 30px;
+}
+
+.details{
+  display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin-bottom: 20px;
+}
+
+.details h1{
+  font-weight: 800;
+}
+
+.details > p{
+font-size: 18px;
+}
+
+.camp-name h5{
+  color: #4D4D4D;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+
+.camp-name h3{
+  color: #4D4D4D;
+  font-weight: normal;
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 60px;
+}
+
+.review{
+  padding: 55px;
+  border-radius: 5px;
+  border: 1px solid #DEDEDE;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+
+.review > div{
+  border-bottom: 1px solid #DEDEDE;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.review > div > p{
+  color: #4D4D4D;
+  line-height: 25px;
+  font-size: 19px;
+}
+
+.review div div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.review div div h1{
+  font-size: 18px;
+}
+
+.review button{
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #000000;
+  color: #ffffff;
+  width: max-content;
+  margin-left: auto;
+  padding: 19px 26px;
+  border-radius: 5px;
+}
+
+.fa-comment-dots{
+  margin-right: 10px;
+}

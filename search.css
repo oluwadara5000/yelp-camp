@@ -116,7 +116,7 @@ input:focus {
 
 .span-div {
   margin-top: 20px;
-  border-bottom: 2px solid #c5c7c0;
+  border-bottom: 2px solid #85827D;
   width: max-content;
 }
 
@@ -763,7 +763,312 @@ input:focus {
 
 @media screen and (min-width: 768px) and (max-width: 840px) {
   section {
-    width: 767px;
+    width: 768px;
     margin: auto;
+    padding: 0 40px;
+    padding-bottom: 80px;
+  }
+
+  header{
+      padding: 40px 0;
+  }
+
+  .left p {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .navigation-bar {
+    display: block;
+    background-color: #f9f6f1;
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  .search{
+    padding: 70px 55px;
+    margin-bottom: 40px;
+  }
+
+  .camps{
+    display: grid;
+    grid-template-columns: 333px 333px;
+    gap: 20px;
+  }
+
+  .camps div{
+    width: 333px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 841px TO 915px */
+@media screen and (min-width: 841px) and (max-width: 915px) {
+  section {
+    width: 840px;
+    margin: auto;
+    padding: 0 40px;
+    padding-bottom: 80px;
+  }
+
+  header{
+      padding: 40px 0;
+  }
+
+  .left p {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .navigation-bar {
+    display: block;
+    background-color: #f9f6f1;
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  .search{
+    padding: 70px 55px;
+    margin-bottom: 40px;
+  }
+
+  .camps{
+    display: grid;
+    grid-template-columns: 333px 333px;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .camps div{
+    width: 333px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 916px TO 990px */
+
+@media screen and (min-width: 916px) and (max-width: 990px) {
+  section {
+    width: 915px;
+    margin: auto;
+    padding: 0 40px;
+    padding-bottom: 80px;
+  }
+
+  header{
+      padding: 40px 0;
+  }
+
+  .search{
+    padding: 70px 55px;
+    margin-bottom: 40px;
+  }
+
+  .camps{
+    display: grid;
+    grid-template-columns: 333px 333px;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .camps div{
+    width: 333px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 991px TO 1065px */
+
+@media screen and (min-width: 991px) and (max-width: 1065px) {
+  section {
+    width: 990px;
+    margin: auto;
+     padding: 0 80px;
+    padding-bottom: 80px;
+  }
+
+   header{
+      padding: 40px 0;
+  }
+
+  .search{
+    padding: 70px 55px;
+    margin-bottom: 40px;
+  }
+
+  .camps{
+    display: grid;
+    grid-template-columns: 360px 360px;
+    gap: 40px;
+    justify-content: center;
+  }
+
+  .camps div{
+    width: 360px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 1066px TO 1140px */
+
+@media screen and (min-width: 1066px) and (max-width: 1140px) {
+  section {
+    width: 1065px;
+    margin: auto;
+    padding: 0 80px;
+    padding-bottom: 80px;
+  }
+
+  header{
+      padding: 40px 0;
+  }
+
+  .search{
+    padding: 70px 55px;
+    margin-bottom: 40px;
+  }
+
+  .camps{
+    display: grid;
+    grid-template-columns: 360px 360px;
+    gap: 40px;
+    justify-content: center;
+  }
+
+  .camps div{
+    width: 360px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 1141px TO 1439px */
+
+@media screen and (min-width: 1141px) and (max-width: 1439px) {
+  section {
+    width: 1140px;
+    margin: auto;
+    padding: 0 80px;
+    padding-bottom: 80px;
+  }
+
+  header{
+      padding: 40px 0;
+  }
+
+  .search{
+    padding: 70px 55px;
+    margin-bottom: 40px;
+  }
+
+  .camps{
+    display: grid;
+    grid-template-columns: 360px 360px;
+    gap: 40px;
+    justify-content: center;
+  }
+
+  .camps div{
+    width: 360px;
   }
 }
