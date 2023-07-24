@@ -14,7 +14,7 @@ body {
   background-color: #000000;
 }
 
-section{
+section {
   width: 1440px;
   margin: auto;
   background-color: #ffffff;
@@ -22,7 +22,7 @@ section{
   padding-bottom: 80px;
 }
 
-header{
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -51,7 +51,7 @@ header{
   color: #5a5a5a;
 }
 
-#create{
+#create {
   background-color: #000000;
   color: #ffffff;
   padding: 21px 30px;
@@ -59,108 +59,108 @@ header{
   font-weight: 600;
 }
 
-.navigation-bar{
+.navigation-bar {
   display: none;
 }
 
-.content{
+.content {
   display: flex;
   gap: 35px;
 }
 
-.map{
+.map {
   padding: 55px;
-  border: 1px solid #DEDEDE;
+  border: 1px solid #dedede;
   border-radius: 5px;
   height: max-content;
 }
 
-.campgrounds-container{
+.campgrounds-container {
   display: flex;
   flex-direction: column;
   gap: 45px;
 }
 
-.campgrounds-div{
+.campgrounds-div {
   padding: 55px;
   border-radius: 5px;
-  border: 1px solid #DEDEDE;
+  border: 1px solid #dedede;
   height: max-content;
 }
 
-.camp-name div{
-width: 100%;
+.camp-name div {
+  width: 100%;
 }
 
-.camp-name div img{
+.camp-name div img {
   width: inherit;
   margin-bottom: 30px;
 }
 
-.details{
+.details {
   display: flex;
- align-items: center;
- justify-content: space-between;
- margin-bottom: 20px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
-.details h1{
+.details h1 {
   font-weight: 800;
 }
 
-.details > p{
-font-size: 18px;
+.details > p {
+  font-size: 18px;
 }
 
-.camp-name h5{
-  color: #4D4D4D;
+.camp-name h5 {
+  color: #4d4d4d;
   font-weight: normal;
   font-size: 18px;
   line-height: 25px;
   margin-bottom: 25px;
 }
 
-.camp-name h3{
-  color: #4D4D4D;
+.camp-name h3 {
+  color: #4d4d4d;
   font-weight: normal;
   font-size: 18px;
   font-style: italic;
   margin-bottom: 60px;
 }
 
-.review{
+.review {
   padding: 55px;
   border-radius: 5px;
-  border: 1px solid #DEDEDE;
+  border: 1px solid #dedede;
   display: flex;
   flex-direction: column;
   margin-bottom: 80px;
 }
 
-.review > div{
-  border-bottom: 1px solid #DEDEDE;
+.review > div {
+  border-bottom: 1px solid #dedede;
   padding-bottom: 30px;
   margin-bottom: 30px;
 }
 
-.review > div > p{
-  color: #4D4D4D;
+.review > div > p {
+  color: #4d4d4d;
   line-height: 25px;
   font-size: 19px;
 }
 
-.review div div{
+.review div div {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 25px;
 }
 
-.review div div h1{
+.review div div h1 {
   font-size: 18px;
 }
 
-.review button{
+.review button {
   font-size: 18px;
   font-weight: 700;
   background-color: #000000;
@@ -171,7 +171,1035 @@ font-size: 18px;
   border-radius: 5px;
 }
 
-.fa-comment-dots{
+.fa-comment-dots {
   margin-right: 10px;
 }
 
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* MEDIA QUERIES */
+/* FOR SCREENS 374px and BELOW */
+@media screen and (max-width: 374px) {
+  section {
+    width: 100%;
+    flex-direction: column-reverse;
+    margin: 0;
+    padding: 0 20px;
+    padding-bottom: 40px;
+  }
+
+  header {
+    padding-top: 40px;
+    margin-bottom: 35px;
+  }
+
+  .left p,
+  .right {
+    display: none;
+  }
+
+  .content {
+    flex-direction: column-reverse;
+    gap: 0;
+    margin-bottom: 70px;
+  }
+
+  .map {
+    padding: 30px;
+    width: 100%;
+  }
+
+  .map img {
+    width: inherit;
+  }
+
+  .campgrounds-container {
+    gap: 40px;
+  }
+
+  .campgrounds-div {
+    padding: 30px;
+  }
+
+  .details h1 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .camp-name h5,
+  .camp-name h3 {
+    font-size: 16px;
+  }
+
+  .review {
+    padding: 30px;
+    margin-bottom: 40px;
+  }
+
+  .review > div > p {
+    font-size: 16px;
+  }
+
+  .review button {
+    margin: 0;
+    font-size: 16px;
+    padding: 17px 32px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 375px TO 450px */
+@media screen and (min-width: 375px) and (max-width: 450px) {
+  section {
+    width: 375px;
+    margin: auto;
+    padding: 0 20px;
+    padding-bottom: 30px;
+  }
+
+  header {
+    padding-top: 40px;
+    margin-bottom: 35px;
+  }
+
+  .left p,
+  .right {
+    display: none;
+  }
+
+  .content {
+    flex-direction: column-reverse;
+    gap: 0;
+    margin-bottom: 70px;
+  }
+
+  .map {
+    padding: 30px;
+    width: 100%;
+  }
+
+  .map img {
+    width: inherit;
+  }
+
+  .campgrounds-container {
+    gap: 40px;
+  }
+
+  .campgrounds-div {
+    padding: 30px;
+  }
+
+  .details h1 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .camp-name h5,
+  .camp-name h3 {
+    font-size: 16px;
+  }
+
+  .review {
+    padding: 30px;
+    margin-bottom: 40px;
+  }
+
+  .review > div > p {
+    font-size: 16px;
+  }
+
+  .review button {
+    margin: 0;
+    font-size: 16px;
+    padding: 17px 32px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 451px TO 525px */
+@media screen and (min-width: 451px) and (max-width: 525px) {
+  section {
+    width: 450px;
+    margin: auto;
+    padding: 0 20px;
+    padding-bottom: 30px;
+  }
+
+  header {
+    padding-top: 40px;
+    margin-bottom: 35px;
+  }
+
+  .left p,
+  .right {
+    display: none;
+  }
+
+  .content {
+    flex-direction: column-reverse;
+    gap: 0;
+    margin-bottom: 70px;
+  }
+
+  .map {
+    padding: 30px;
+    width: 100%;
+  }
+
+  .map img {
+    width: inherit;
+  }
+
+  .campgrounds-container {
+    gap: 40px;
+  }
+
+  .campgrounds-div {
+    padding: 30px;
+  }
+
+  .details h1 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .camp-name h5,
+  .camp-name h3 {
+    font-size: 16px;
+  }
+
+  .review {
+    padding: 30px;
+    margin-bottom: 40px;
+  }
+
+  .review > div > p {
+    font-size: 16px;
+  }
+
+  .review button {
+    margin: 0;
+    font-size: 16px;
+    padding: 17px 32px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 526px TO 600px */
+@media screen and (min-width: 526px) and (max-width: 600px) {
+  section {
+    width: 525px;
+    margin: auto;
+    padding: 0 50px;
+    padding-bottom: 30px;
+  }
+
+  header {
+    padding-top: 40px;
+    margin-bottom: 35px;
+  }
+
+  .left p,
+  .right {
+    display: none;
+  }
+
+  .content {
+    flex-direction: column-reverse;
+    gap: 0;
+    margin-bottom: 70px;
+  }
+
+  .map {
+    padding: 30px;
+    width: 100%;
+  }
+
+  .map img {
+    width: inherit;
+  }
+
+  .campgrounds-container {
+    gap: 40px;
+  }
+
+  .campgrounds-div {
+    padding: 30px;
+  }
+
+  .details h1 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .camp-name h5,
+  .camp-name h3 {
+    font-size: 16px;
+  }
+
+  .review {
+    padding: 30px;
+    margin-bottom: 40px;
+  }
+
+  .review > div > p {
+    font-size: 16px;
+  }
+
+  .review button {
+    margin: 0;
+    font-size: 16px;
+    padding: 17px 32px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 601px TO 685px */
+@media screen and (min-width: 601px) and (max-width: 685px) {
+  section {
+    width: 600px;
+    margin: auto;
+    padding: 0 70px;
+    padding-bottom: 30px;
+  }
+
+  header {
+    padding-top: 40px;
+    margin-bottom: 35px;
+  }
+
+  .left p,
+  .right {
+    display: none;
+  }
+
+  .content {
+    flex-direction: column-reverse;
+    gap: 0;
+    margin-bottom: 70px;
+  }
+
+  .map {
+    padding: 30px;
+    width: 100%;
+  }
+
+  .map img {
+    width: inherit;
+  }
+
+  .campgrounds-container {
+    gap: 40px;
+  }
+
+  .campgrounds-div {
+    padding: 30px;
+  }
+
+  .details h1 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .camp-name h5,
+  .camp-name h3 {
+    font-size: 16px;
+  }
+
+  .review {
+    padding: 30px;
+    margin-bottom: 40px;
+  }
+
+  .review > div > p {
+    font-size: 16px;
+  }
+
+  .review button {
+    margin: 0;
+    font-size: 16px;
+    padding: 17px 32px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 686px TO 767px */
+@media screen and (min-width: 686px) and (max-width: 767px) {
+  section {
+    width: 685px;
+    margin: auto;
+    padding: 0 70px;
+    padding-bottom: 30px;
+  }
+
+  header {
+    padding-top: 40px;
+    margin-bottom: 35px;
+  }
+
+  .left p,
+  .right {
+    display: none;
+  }
+
+  .content {
+    flex-direction: column-reverse;
+    gap: 0;
+    margin-bottom: 70px;
+  }
+
+  .map {
+    padding: 30px;
+    width: 100%;
+  }
+
+  .map img {
+    width: inherit;
+  }
+
+  .campgrounds-container {
+    gap: 40px;
+  }
+
+  .campgrounds-div {
+    padding: 30px;
+  }
+
+  .details h1 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .camp-name h5,
+  .camp-name h3 {
+    font-size: 16px;
+  }
+
+  .review {
+    padding: 30px;
+    margin-bottom: 40px;
+  }
+
+  .review > div > p {
+    font-size: 16px;
+  }
+
+  .review button {
+    margin: 0;
+    font-size: 16px;
+    padding: 17px 32px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 768px TO 840px */
+
+@media screen and (min-width: 768px) and (max-width: 840px) {
+  section {
+    width: 768px;
+    margin: auto;
+    padding: 0 40px;
+    padding-bottom: 80px;
+  }
+
+  header {
+    padding-top: 40px;
+    margin-bottom: 35px;
+  }
+
+  .left p,
+  .right {
+    display: none;
+  }
+
+  .content {
+    flex-direction: column-reverse;
+    gap: 0;
+    margin-bottom: 70px;
+  }
+
+  .map {
+    width: 100%;
+  }
+
+  .map img {
+    width: inherit;
+  }
+
+  .campgrounds-container {
+    gap: 40px;
+  }
+
+  .details h1 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .camp-name h5,
+  .camp-name h3 {
+    font-size: 16px;
+  }
+
+  .review {
+    margin-bottom: 40px;
+  }
+
+  .review > div > p {
+    font-size: 16px;
+  }
+
+  .review button {
+    margin: 0;
+    font-size: 16px;
+    padding: 17px 32px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 841px TO 915px */
+@media screen and (min-width: 841px) and (max-width: 915px) {
+  section {
+    width: 840px;
+    margin: auto;
+    padding: 0 40px;
+    padding-bottom: 80px;
+  }
+
+  header {
+    padding-top: 40px;
+    margin-bottom: 35px;
+  }
+
+  .left p,
+  .right {
+    display: none;
+  }
+
+  .content {
+    flex-direction: column-reverse;
+    gap: 0;
+    margin-bottom: 70px;
+  }
+
+  .map {
+    width: 100%;
+  }
+
+  .map img {
+    width: inherit;
+  }
+
+  .campgrounds-container {
+    gap: 40px;
+  }
+
+  .details h1 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .camp-name h5,
+  .camp-name h3 {
+    font-size: 16px;
+  }
+
+  .review {
+    margin-bottom: 40px;
+  }
+
+  .review > div > p {
+    font-size: 16px;
+  }
+
+  .review button {
+    margin: 0;
+    font-size: 16px;
+    padding: 17px 32px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 916px TO 990px */
+
+@media screen and (min-width: 916px) and (max-width: 990px) {
+  section {
+    width: 915px;
+    margin: auto;
+    padding: 0 40px;
+    padding-bottom: 80px;
+  }
+
+  header {
+    padding-top: 40px;
+    margin-bottom: 35px;
+  }
+
+  .left p,
+  .right {
+    display: none;
+  }
+
+  .content {
+    flex-direction: column-reverse;
+    gap: 0;
+    margin-bottom: 70px;
+  }
+
+  .map {
+    width: 100%;
+  }
+
+  .map img {
+    width: inherit;
+  }
+
+  .campgrounds-container {
+    gap: 40px;
+  }
+
+  .details h1 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .camp-name h5,
+  .camp-name h3 {
+    font-size: 16px;
+  }
+
+  .review {
+    margin-bottom: 40px;
+  }
+
+  .review > div > p {
+    font-size: 16px;
+  }
+
+  .review button {
+    margin: 0;
+    font-size: 16px;
+    padding: 17px 32px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 991px TO 1065px */
+
+@media screen and (min-width: 991px) and (max-width: 1065px) {
+  section {
+    width: 990px;
+    margin: auto;
+     padding: 0 80px;
+    padding-bottom: 80px;
+  }
+
+  header {
+    padding-top: 40px;
+    margin-bottom: 35px;
+  }
+
+  .left p,
+  .right {
+    display: none;
+  }
+
+  .content {
+    flex-direction: column-reverse;
+    gap: 0;
+    margin-bottom: 70px;
+  }
+
+  .map {
+    width: 100%;
+  }
+
+  .map img {
+    width: inherit;
+  }
+
+  .campgrounds-container {
+    gap: 40px;
+  }
+
+  .details h1 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .camp-name h5,
+  .camp-name h3 {
+    font-size: 16px;
+  }
+
+  .review {
+    margin-bottom: 40px;
+  }
+
+  .review > div > p {
+    font-size: 16px;
+  }
+
+  .review button {
+    margin: 0;
+    font-size: 16px;
+    padding: 17px 32px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 1066px TO 1140px */
+
+@media screen and (min-width: 1066px) and (max-width: 1140px) {
+  section {
+    width: 1065px;
+    margin: auto;
+    padding: 0 80px;
+    padding-bottom: 80px;
+  }
+
+  header {
+    padding-top: 40px;
+    margin-bottom: 35px;
+  }
+
+  .left p,
+  .right {
+    display: none;
+  }
+
+  .content {
+    flex-direction: column-reverse;
+    gap: 0;
+    margin-bottom: 70px;
+  }
+
+  .map {
+    width: 100%;
+  }
+
+  .map img {
+    width: inherit;
+  }
+
+  .campgrounds-container {
+    gap: 40px;
+  }
+
+  .details h1 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .camp-name h5,
+  .camp-name h3 {
+    font-size: 16px;
+  }
+
+  .review {
+    margin-bottom: 40px;
+  }
+
+  .review > div > p {
+    font-size: 16px;
+  }
+
+  .review button {
+    margin: 0;
+    font-size: 16px;
+    padding: 17px 32px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 1141px TO 1439px */
+
+@media screen and (min-width: 1141px) and (max-width: 1439px) {
+  section {
+    width: 1140px;
+    margin: auto;
+    padding: 0 80px;
+    padding-bottom: 80px;
+  }
+
+  header {
+    padding-top: 40px;
+    margin-bottom: 35px;
+  }
+
+  .left p,
+  .right {
+    display: none;
+  }
+
+  .content {
+    flex-direction: column-reverse;
+    gap: 0;
+    margin-bottom: 70px;
+  }
+
+  .map {
+    width: 100%;
+  }
+
+  .map img {
+    width: inherit;
+  }
+
+  .campgrounds-container {
+    gap: 40px;
+  }
+
+  .details h1 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .camp-name h5,
+  .camp-name h3 {
+    font-size: 16px;
+  }
+
+  .review {
+    margin-bottom: 40px;
+  }
+
+  .review > div > p {
+    font-size: 16px;
+  }
+
+  .review button {
+    margin: 0;
+    font-size: 16px;
+    padding: 17px 32px;
+  }
+}
