@@ -27,7 +27,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding-top: 55px;
-  margin-bottom: 75px;
+  margin-bottom: 45px;
 }
 
 .left,
@@ -55,14 +55,855 @@ header {
   display: none;
 }
 
-h1{
+h1 {
   font-size: 35px;
   font-weight: 800;
+  margin-bottom: 23px;
 }
 
-form{
+form {
   padding: 0 300px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 40px;
 }
 
+label {
+  color: #636363;
+  margin: 20px 0;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 20px;
+  font-size: 18px;
+  background-color: #f7f7f7;
+  border: none;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  color: #a5a5a5;
+}
+
+[type|="file"] {
+  color: #a5a5a5;
+}
+
+textarea {
+  font-size: 18px;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  margin-bottom: 20px;
+}
+
+textarea::placeholder {
+  color: #a5a5a5;
+  line-height: 28px;
+  font-size: 18px;
+}
+
+form button {
+  font-size: 18px;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 21px 0;
+  border-radius: 5px;
+  border: none;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* MEDIA QUERIES */
+/* FOR SCREENS 374px and BELOW */
+@media screen and (max-width: 374px) {
+  section {
+    width: 100%;
+    margin: 0;
+    padding: 0 20px;
+    padding-bottom: 30px;
+  }
+
+  header {
+    padding: 30px 0;
+  }
+
+  .left p {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .navigation-bar {
+    display: block;
+    background-color: #f9f6f1;
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  form {
+    padding: 0;
+  }
+
+  textarea::placeholder {
+    font-size: 14px;
+  }
+
+  input:focus {
+    outline-color: black;
+  }
+
+  textarea:focus {
+    outline-color: black;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 375px TO 450px */
+@media screen and (min-width: 375px) and (max-width: 450px) {
+  section {
+    width: 375px;
+    margin: auto;
+    padding: 0 20px;
+    padding-bottom: 30px;
+  }
+
+  header {
+    padding: 30px 0;
+  }
+
+  .left p {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .navigation-bar {
+    display: block;
+    background-color: #f9f6f1;
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  form {
+    padding: 0;
+  }
+
+  textarea::placeholder {
+    font-size: 14px;
+  }
+
+  input:focus {
+    outline-color: black;
+  }
+
+  textarea:focus {
+    outline-color: black;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 451px TO 525px */
+@media screen and (min-width: 451px) and (max-width: 525px) {
+  section {
+    width: 450px;
+    margin: auto;
+    padding: 0 20px;
+    padding-bottom: 30px;
+  }
+
+  header {
+    padding: 30px 0;
+  }
+
+  .left p {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .navigation-bar {
+    display: block;
+    background-color: #f9f6f1;
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  form {
+    padding: 0;
+  }
+
+  textarea::placeholder {
+    font-size: 16px;
+  }
+
+  input:focus {
+    outline-color: black;
+  }
+
+  textarea:focus {
+    outline-color: black;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 526px TO 600px */
+@media screen and (min-width: 526px) and (max-width: 600px) {
+  section {
+    width: 525px;
+    margin: auto;
+    padding: 0 50px;
+    padding-bottom: 30px;
+  }
+
+  header {
+    padding: 30px 0;
+  }
+
+  .left p {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .navigation-bar {
+    display: block;
+    background-color: #f9f6f1;
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  form {
+    padding: 0;
+  }
+
+  textarea::placeholder {
+    font-size: 16px;
+  }
+
+  input:focus {
+    outline-color: black;
+  }
+
+  textarea:focus {
+    outline-color: black;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 601px TO 685px */
+@media screen and (min-width: 601px) and (max-width: 685px) {
+  section {
+    width: 600px;
+    margin: auto;
+    padding: 0 70px;
+    padding-bottom: 30px;
+  }
+
+  header {
+    padding: 30px 0;
+  }
+
+  .left p {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .navigation-bar {
+    display: block;
+    background-color: #f9f6f1;
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  form {
+    padding: 0;
+  }
+
+  textarea::placeholder {
+    font-size: 16px;
+  }
+
+  input:focus {
+    outline-color: black;
+  }
+
+  textarea:focus {
+    outline-color: black;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 686px TO 767px */
+@media screen and (min-width: 686px) and (max-width: 767px) {
+  section {
+    width: 685px;
+    margin: auto;
+    padding: 0 73px;
+    padding-bottom: 30px;
+  }
+
+  header {
+    padding: 30px 0;
+  }
+
+  .left p {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .navigation-bar {
+    display: block;
+    background-color: #f9f6f1;
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  form {
+    padding: 0;
+  }
+
+  textarea::placeholder {
+    font-size: 16px;
+  }
+
+  input:focus {
+    outline-color: black;
+  }
+
+  textarea:focus {
+    outline-color: black;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 768px TO 840px */
+
+@media screen and (min-width: 768px) and (max-width: 840px) {
+  section {
+    width: 768px;
+    margin: auto;
+    padding: 0 40px;
+    padding-bottom: 80px;
+  }
+
+  header {
+    padding: 30px 0;
+  }
+
+  .left p {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .navigation-bar {
+    display: block;
+    background-color: #f9f6f1;
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  form {
+    padding: 0;
+    width: 535px;
+  }
+
+  textarea::placeholder {
+    font-size: 16px;
+  }
+
+  input:focus {
+    outline-color: black;
+  }
+
+  textarea:focus {
+    outline-color: black;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 841px TO 915px */
+@media screen and (min-width: 841px) and (max-width: 915px) {
+  section {
+    width: 840px;
+    margin: auto;
+    padding: 0 40px;
+    padding-bottom: 80px;
+  }
+
+  header {
+    padding: 30px 0;
+  }
+
+  .left p {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .navigation-bar {
+    display: block;
+    background-color: #f9f6f1;
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  form {
+    padding: 0;
+    width: 585px;
+  }
+
+  textarea::placeholder {
+    font-size: 16px;
+  }
+
+  input:focus {
+    outline-color: black;
+  }
+
+  textarea:focus {
+    outline-color: black;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 916px TO 990px */
+
+@media screen and (min-width: 916px) and (max-width: 990px) {
+  section {
+    width: 915px;
+    margin: auto;
+    padding: 0 40px;
+    padding-bottom: 80px;
+  }
+
+  header {
+    padding: 30px 0;
+  }
+
+  .left p {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .navigation-bar {
+    display: block;
+    background-color: #f9f6f1;
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  form {
+    padding: 0;
+    width: 635px;
+  }
+
+  textarea::placeholder {
+    font-size: 16px;
+  }
+
+  input:focus {
+    outline-color: black;
+  }
+
+  textarea:focus {
+    outline-color: black;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 991px TO 1065px */
+
+@media screen and (min-width: 991px) and (max-width: 1065px) {
+  section {
+    width: 990px;
+    margin: auto;
+    padding: 0 80px;
+    padding-bottom: 80px;
+  }
+
+  header {
+    padding: 30px 0;
+  }
+
+  .left p {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .navigation-bar {
+    display: block;
+    background-color: #f9f6f1;
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  form {
+    padding: 0;
+    width: 690px;
+  }
+
+  textarea::placeholder {
+    font-size: 16px;
+  }
+
+  input:focus {
+    outline-color: black;
+  }
+
+  textarea:focus {
+    outline-color: black;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 1066px TO 1140px */
+
+@media screen and (min-width: 1066px) and (max-width: 1140px) {
+  section {
+    width: 1065px;
+    margin: auto;
+    padding: 0 80px;
+    padding-bottom: 80px;
+  }
+
+  header {
+    padding: 30px 0;
+  }
+
+  .left p {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .navigation-bar {
+    display: block;
+    background-color: #f9f6f1;
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  form {
+    padding: 0;
+    width: 690px;
+  }
+
+  textarea::placeholder {
+    font-size: 16px;
+  }
+
+  input:focus {
+    outline-color: black;
+  }
+
+  textarea:focus {
+    outline-color: black;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 1141px TO 1439px */
+
+@media screen and (min-width: 1141px) and (max-width: 1439px) {
+  section {
+    width: 1140px;
+    margin: auto;
+    padding: 0 80px;
+    padding-bottom: 80px;
+  }
+
+  header {
+    padding: 30px 0;
+  }
+
+  .left p {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .navigation-bar {
+    display: block;
+    background-color: #f9f6f1;
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  form {
+    padding: 0;
+    width: 795px;
+  }
+
+  textarea::placeholder {
+    font-size: 16px;
+  }
+
+  input:focus {
+    outline-color: black;
+  }
+
+  textarea:focus {
+    outline-color: black;
+  }
+}
