@@ -10,29 +10,28 @@
 
 html,
 body {
+  height: 100vh;
   width: 100%;
   background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 section {
   width: 1440px;
   margin: auto;
-  display: flex;
-  flex-direction: column;
   background-color: #ffffff;
   padding: 0 150px;
-  padding-bottom: 60px;
+  padding-bottom: 45px;
 }
 
 header {
   display: flex;
-  padding: 60px 0;
   justify-content: space-between;
   align-items: center;
-}
-
-.navigation-bar {
-  display: none;
+  padding-top: 55px;
+  margin-bottom: 45px;
 }
 
 .left,
@@ -56,122 +55,51 @@ header {
   color: #5a5a5a;
 }
 
-#login {
-  font-weight: normal;
+.navigation-bar {
+  display: none;
 }
 
-#create {
-  background-color: black;
-  color: #ffffff;
-  padding: 21px 28px;
-  border-radius: 5px;
+h1 {
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 23px;
 }
 
-.search {
-  background-color: #f9f6f1;
-  padding: 65px 55px;
-  margin-bottom: 80px;
+form {
+  padding: 0 300px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
 }
 
-.search h1 {
-  font-size: 36px;
-  margin-bottom: 18px;
+label {
+  color: #636363;
+  margin: 20px 0;
+  margin-bottom: 10px;
 }
 
-.search p {
-  width: 395px;
+textarea {
   font-size: 18px;
-  color: #5a5a5a;
-  line-height: 25px;
-  margin-bottom: 18px;
-}
-
-input {
-  width: 254px;
-  padding: 20px 0;
-  padding-left: 25px;
-  font-size: 18px;
-  border: 1px solid #c9cac5;
-  border-radius: 5px;
-}
-
-input:focus {
-  outline: none;
-}
-
-.fontAwesome {
-  font-family: Archivo, "FontAwesome", sans-serif;
-}
-
-.input-div button {
-  background-color: #000000;
-  color: #ffffff;
-  font-size: 16px;
-  padding: 22px 27px;
+  padding: 20px;
   border: none;
   border-radius: 5px;
-  margin-left: 18px;
-  font-weight: 600;
+  background-color: #f7f7f7;
+  margin-bottom: 20px;
 }
 
-.span-div {
-  margin-top: 20px;
-  border-bottom: 2px solid #85827D;
-  width: max-content;
-}
-
-.span-div a, .span-div a:visited{
-  text-decoration: none;
-   color: #5a5a5a;
-}
-
-.span-div span {
+textarea::placeholder {
+  color: #a5a5a5;
+  line-height: 28px;
   font-size: 18px;
 }
 
-.camps {
-  display: grid;
-  grid-template-columns: 360px 360px 360px;
-  gap: 30px;
-  margin-bottom: 80px;
-}
-
-.camps div {
-  padding: 15px;
-  border: 1px solid #c9cac5;
-  /* height: 380px; */
-  width: 360px;
+form button {
+  font-size: 18px;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 21px 0;
   border-radius: 5px;
-}
-
-.camps div img {
-  width: 100%;
-  height: 182px;
-  border-radius: 5px;
-  margin-bottom: 15px;
-}
-
-.camps div h1 {
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 15px;
-}
-
-.camps div p {
-  font-size: 18px;
-  line-height: 25px;
-  margin-bottom: 15px;
-  color: #5a5a5a;
-}
-
-.camps div button {
-  width: 100%;
-  border: 1px solid #c9cac5;
-  background-color: #ffffff;
-  padding: 17px 0;
-  font-size: 18px;
-  border-radius: 5px;
-  font-weight: 800;
+  border: none;
 }
 
 /*  */
@@ -225,48 +153,24 @@ input:focus {
     font-size: 18px;
   }
 
-  .search {
-    padding: 35px 30px;
-    margin-bottom: 35px;
+  form {
+    padding: 0;
   }
 
-  .search h1 {
-    margin-bottom: 10px;
+  textarea::placeholder {
+    font-size: 14px;
   }
 
-  .search p {
-    width: 100%;
-    font-size: 16px;
-    margin-bottom: 10px;
+  input:focus {
+    outline-color: black;
   }
 
-  input {
-    width: 100%;
-    font-size: 16px;
+  textarea:focus {
+    outline-color: black;
   }
 
-  .input-div button {
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    font-weight: 600;
-    width: 100%;
-    margin: 0;
-    margin-top: 15px;
-  }
-
-  .span-div span {
-    font-size: 16px;
-  }
-
-  .camps {
-    display: block;
-    margin-bottom: 30px;
-  }
-
-  .camps div {
-    width: 100%;
-    margin-bottom: 20px;
+  footer{
+    margin-left: 15px;
   }
 }
 
@@ -318,49 +222,24 @@ input:focus {
     font-size: 18px;
   }
 
-  .search {
-    padding: 35px 30px;
-    margin-bottom: 35px;
+  form {
+    padding: 0;
   }
 
-  .search h1 {
-    margin-bottom: 10px;
+  textarea::placeholder {
+    font-size: 14px;
   }
 
-  .search p {
-    width: 100%;
-    font-size: 16px;
-    margin-bottom: 10px;
+  input:focus {
+    outline-color: black;
   }
 
-  input {
-    width: 100%;
-    font-size: 16px;
+  textarea:focus {
+    outline-color: black;
   }
 
-  .input-div button {
-    font-size: 16px;
-
-    border: none;
-    border-radius: 5px;
-    font-weight: 600;
-    width: 100%;
-    margin: 0;
-    margin-top: 15px;
-  }
-
-  .span-div span {
-    font-size: 16px;
-  }
-
-  .camps {
-    display: block;
-    margin-bottom: 30px;
-  }
-
-  .camps div {
-    width: 100%;
-    margin-bottom: 20px;
+  footer{
+    margin-left: 15px;
   }
 }
 
@@ -412,50 +291,24 @@ input:focus {
     font-size: 18px;
   }
 
-  .search {
-    padding: 35px 30px;
-    margin-bottom: 35px;
+  form {
+    padding: 0;
   }
 
-  .search h1 {
-    margin-bottom: 10px;
-  }
-
-  .search p {
-    width: 100%;
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-
-  input {
-    width: 100%;
+  textarea::placeholder {
     font-size: 16px;
   }
 
-  .input-div button {
-    font-size: 16px;
-
-    border: none;
-    border-radius: 5px;
-    font-weight: 600;
-    width: 100%;
-    margin: 0;
-    margin-top: 15px;
+  input:focus {
+    outline-color: black;
   }
 
-  .span-div span {
-    font-size: 16px;
+  textarea:focus {
+    outline-color: black;
   }
 
-  .camps {
-    display: block;
-    margin-bottom: 30px;
-    padding: 0 35px;
-  }
-
-  .camps div {
-    width: 100%;
-    margin-bottom: 20px;
+  footer{
+    margin-left: 15px;
   }
 }
 
@@ -507,50 +360,24 @@ input:focus {
     font-size: 18px;
   }
 
-  .search {
-    padding: 35px 30px;
-    margin-bottom: 35px;
+  form {
+    padding: 0;
   }
 
-  .search h1 {
-    margin-bottom: 10px;
-  }
-
-  .search p {
-    width: 100%;
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-
-  input {
-    width: 100%;
+  textarea::placeholder {
     font-size: 16px;
   }
 
-  .input-div button {
-    font-size: 16px;
-
-    border: none;
-    border-radius: 5px;
-    font-weight: 600;
-    width: 100%;
-    margin: 0;
-    margin-top: 15px;
+  input:focus {
+    outline-color: black;
   }
 
-  .span-div span {
-    font-size: 16px;
+  textarea:focus {
+    outline-color: black;
   }
 
-  .camps {
-    display: block;
-    margin-bottom: 30px;
-    padding: 0 25px;
-  }
-
-  .camps div {
-    width: 100%;
-    margin-bottom: 20px;
+  footer{
+    margin-left: 15px;
   }
 }
 
@@ -602,50 +429,24 @@ input:focus {
     font-size: 18px;
   }
 
-  .search {
-    padding: 35px 30px;
-    margin-bottom: 35px;
+  form {
+    padding: 0;
   }
 
-  .search h1 {
-    margin-bottom: 10px;
-  }
-
-  .search p {
-    width: 100%;
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-
-  input {
-    width: 100%;
+  textarea::placeholder {
     font-size: 16px;
   }
 
-  .input-div button {
-    font-size: 16px;
-
-    border: none;
-    border-radius: 5px;
-    font-weight: 600;
-    width: 100%;
-    margin: 0;
-    margin-top: 15px;
+  input:focus {
+    outline-color: black;
   }
 
-  .span-div span {
-    font-size: 16px;
+  textarea:focus {
+    outline-color: black;
   }
 
-  .camps {
-    display: block;
-    margin-bottom: 30px;
-    padding: 0 45px;
-  }
-
-  .camps div {
-    width: 100%;
-    margin-bottom: 20px;
+  footer{
+    margin-left: 15px;
   }
 }
 
@@ -674,7 +475,7 @@ input:focus {
   section {
     width: 685px;
     margin: auto;
-    padding: 0 70px;
+    padding: 0 73px;
     padding-bottom: 30px;
   }
 
@@ -697,50 +498,24 @@ input:focus {
     font-size: 18px;
   }
 
-  .search {
-    padding: 35px 30px;
-    margin-bottom: 35px;
+  form {
+    padding: 0;
   }
 
-  .search h1 {
-    margin-bottom: 10px;
-  }
-
-  .search p {
-    width: 100%;
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-
-  input {
-    width: 100%;
+  textarea::placeholder {
     font-size: 16px;
   }
 
-  .input-div button {
-    font-size: 16px;
-
-    border: none;
-    border-radius: 5px;
-    font-weight: 600;
-    width: 100%;
-    margin: 0;
-    margin-top: 15px;
+  input:focus {
+    outline-color: black;
   }
 
-  .span-div span {
-    font-size: 16px;
+  textarea:focus {
+    outline-color: black;
   }
 
-  .camps {
-    display: block;
-    margin-bottom: 30px;
-    padding: 0 85px;
-  }
-
-  .camps div {
-    width: 100%;
-    margin-bottom: 20px;
+  footer{
+    margin-left: 15px;
   }
 }
 
@@ -774,8 +549,8 @@ input:focus {
     padding-bottom: 80px;
   }
 
-  header{
-      padding: 40px 0;
+  header {
+    padding: 30px 0;
   }
 
   .left p {
@@ -793,19 +568,21 @@ input:focus {
     font-size: 18px;
   }
 
-  .search{
-    padding: 70px 55px;
-    margin-bottom: 40px;
+  form {
+    padding: 0;
+    width: 535px;
   }
 
-  .camps{
-    display: grid;
-    grid-template-columns: 333px 333px;
-    gap: 20px;
+  textarea::placeholder {
+    font-size: 16px;
   }
 
-  .camps div{
-    width: 333px;
+  input:focus {
+    outline-color: black;
+  }
+
+  textarea:focus {
+    outline-color: black;
   }
 }
 
@@ -838,8 +615,8 @@ input:focus {
     padding-bottom: 80px;
   }
 
-  header{
-      padding: 40px 0;
+  header {
+    padding: 30px 0;
   }
 
   .left p {
@@ -857,20 +634,21 @@ input:focus {
     font-size: 18px;
   }
 
-  .search{
-    padding: 70px 55px;
-    margin-bottom: 40px;
+  form {
+    padding: 0;
+    width: 585px;
   }
 
-  .camps{
-    display: grid;
-    grid-template-columns: 333px 333px;
-    gap: 20px;
-    justify-content: center;
+  textarea::placeholder {
+    font-size: 16px;
   }
 
-  .camps div{
-    width: 333px;
+  input:focus {
+    outline-color: black;
+  }
+
+  textarea:focus {
+    outline-color: black;
   }
 }
 
@@ -904,24 +682,40 @@ input:focus {
     padding-bottom: 80px;
   }
 
-  header{
-      padding: 40px 0;
+  header {
+    padding: 30px 0;
   }
 
-  .search{
-    padding: 70px 55px;
-    margin-bottom: 40px;
+  .left p {
+    display: none;
   }
 
-  .camps{
-    display: grid;
-    grid-template-columns: 333px 333px;
-    gap: 20px;
-    justify-content: center;
+  .right {
+    display: none;
   }
 
-  .camps div{
-    width: 333px;
+  .navigation-bar {
+    display: block;
+    background-color: #f9f6f1;
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  form {
+    padding: 0;
+    width: 635px;
+  }
+
+  textarea::placeholder {
+    font-size: 16px;
+  }
+
+  input:focus {
+    outline-color: black;
+  }
+
+  textarea:focus {
+    outline-color: black;
   }
 }
 
@@ -951,28 +745,44 @@ input:focus {
   section {
     width: 990px;
     margin: auto;
-     padding: 0 80px;
+    padding: 0 80px;
     padding-bottom: 80px;
   }
 
-   header{
-      padding: 40px 0;
+  header {
+    padding: 30px 0;
   }
 
-  .search{
-    padding: 70px 55px;
-    margin-bottom: 40px;
+  .left p {
+    display: none;
   }
 
-  .camps{
-    display: grid;
-    grid-template-columns: 360px 360px;
-    gap: 40px;
-    justify-content: center;
+  .right {
+    display: none;
   }
 
-  .camps div{
-    width: 360px;
+  .navigation-bar {
+    display: block;
+    background-color: #f9f6f1;
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  form {
+    padding: 0;
+    width: 690px;
+  }
+
+  textarea::placeholder {
+    font-size: 16px;
+  }
+
+  input:focus {
+    outline-color: black;
+  }
+
+  textarea:focus {
+    outline-color: black;
   }
 }
 
@@ -1006,24 +816,40 @@ input:focus {
     padding-bottom: 80px;
   }
 
-  header{
-      padding: 40px 0;
+  header {
+    padding: 30px 0;
   }
 
-  .search{
-    padding: 70px 55px;
-    margin-bottom: 40px;
+  .left p {
+    display: none;
   }
 
-  .camps{
-    display: grid;
-    grid-template-columns: 360px 360px;
-    gap: 40px;
-    justify-content: center;
+  .right {
+    display: none;
   }
 
-  .camps div{
-    width: 360px;
+  .navigation-bar {
+    display: block;
+    background-color: #f9f6f1;
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  form {
+    padding: 0;
+    width: 690px;
+  }
+
+  textarea::placeholder {
+    font-size: 16px;
+  }
+
+  input:focus {
+    outline-color: black;
+  }
+
+  textarea:focus {
+    outline-color: black;
   }
 }
 
@@ -1057,23 +883,39 @@ input:focus {
     padding-bottom: 80px;
   }
 
-  header{
-      padding: 40px 0;
+  header {
+    padding: 30px 0;
   }
 
-  .search{
-    padding: 70px 55px;
-    margin-bottom: 40px;
+  .left p {
+    display: none;
   }
 
-  .camps{
-    display: grid;
-    grid-template-columns: 360px 360px;
-    gap: 40px;
-    justify-content: center;
+  .right {
+    display: none;
   }
 
-  .camps div{
-    width: 360px;
+  .navigation-bar {
+    display: block;
+    background-color: #f9f6f1;
+    padding: 12px;
+    font-size: 18px;
+  }
+
+  form {
+    padding: 0;
+    width: 795px;
+  }
+
+  textarea::placeholder {
+    font-size: 16px;
+  }
+
+  input:focus {
+    outline-color: black;
+  }
+
+  textarea:focus {
+    outline-color: black;
   }
 }
