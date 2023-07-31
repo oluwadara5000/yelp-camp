@@ -1,0 +1,1090 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Archivo", sans-serif;
+  cursor: pointer;
+}
+
+html,
+body {
+  width: 100%;
+  background-color: #000000;
+}
+
+section {
+  width: 1440px;
+  margin: auto;
+  display: flex;
+  background-color: #ffffff;
+  margin-top: 50px;
+}
+
+header {
+  display: flex;
+  padding-top: 40px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 160px;
+}
+
+.right button {
+  background-color: #ffffff;
+  border: 0;
+  font-size: 18px;
+  color: #5a5a5a;
+}
+
+.fa-arrow-left {
+  margin-right: 10px;
+}
+
+.testimony {
+  text-align: center;
+  padding-left: 150px;
+  width: 605px;
+  padding-top: 310px;
+  background-color: #f9f6f1;
+}
+
+.testimony h1 {
+  width: 290px;
+  text-align: left;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+.testimony > div {
+  display: flex;
+  align-items: center;
+}
+
+.testimony h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.testimony p {
+  font-size: 14px;
+}
+
+.testimony img {
+  margin-right: 20px;
+}
+
+.testimony > div div {
+  text-align: left;
+}
+
+.parameters {
+  width: 835px;
+  padding: 0 150px;
+}
+
+.content h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+
+.content p {
+  font-size: 18px;
+  margin-bottom: 220px;
+}
+
+.content span {
+  color: #1b8da8;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 18px;
+  color: #636363;
+  margin-bottom: 10px;
+}
+
+input {
+  margin-bottom: 25px;
+  padding: 20px;
+  font-size: 18px;
+  background-color: #f7f7f7;
+  border: none;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  color: #a5a5a5;
+}
+
+form button {
+  font-size: 18px;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 21px 0;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 25px;
+}
+
+input:focus {
+  outline-color: black;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* MEDIA QUERIES */
+/* FOR SCREENS 374px and BELOW */
+@media screen and (max-width: 374px) {
+  section {
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  header {
+    margin-bottom: 50px;
+    padding-top: 35px;
+  }
+
+  .right button {
+    font-size: 16px;
+  }
+
+  .testimony {
+    width: 100%;
+    padding: 45px 20px;
+  }
+
+  .testimony h1 {
+    width: 100%;
+    font-size: 22px;
+  }
+
+  .parameters {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .content h1 {
+    width: 260px;
+    margin-bottom: 45px;
+  }
+
+  .content p {
+    font-size: 16px;
+    margin-bottom: 46px;
+  }
+
+  label {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  input {
+    font-size: 16px;
+    margin-bottom: 27px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* MEDIA QUERIES */
+/* FOR SCREENS 374px TO 450px */
+@media screen and (min-width: 375px) and (max-width: 450px) {
+  section {
+    width: 375px;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  header {
+    margin-bottom: 50px;
+    padding-top: 35px;
+  }
+
+  .right button {
+    font-size: 16px;
+  }
+
+  .testimony {
+    width: 100%;
+    padding: 45px 20px;
+  }
+
+  .testimony h1 {
+    width: 100%;
+    font-size: 22px;
+  }
+
+  .parameters {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .content h1 {
+    width: 260px;
+    margin-bottom: 45px;
+  }
+
+  .content p {
+    font-size: 16px;
+    margin-bottom: 46px;
+  }
+
+  label {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  input {
+    font-size: 16px;
+    margin-bottom: 27px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* MEDIA QUERIES */
+/* FOR SCREENS 451px TO 525px */
+@media screen and (min-width: 451px) and (max-width: 525px) {
+  section {
+    width: 450px;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  header {
+    margin-bottom: 50px;
+    padding-top: 35px;
+  }
+
+  .right button {
+    font-size: 16px;
+  }
+
+  .testimony {
+    width: 100%;
+    padding: 45px 20px;
+  }
+
+  .testimony h1 {
+    width: 100%;
+    font-size: 22px;
+  }
+
+  .parameters {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .content h1 {
+    width: 312px;
+    margin-bottom: 45px;
+  }
+
+  .content p {
+    font-size: 16px;
+    margin-bottom: 46px;
+  }
+
+  label {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  input {
+    font-size: 16px;
+    margin-bottom: 27px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* MEDIA QUERIES */
+/* FOR SCREENS 526px TO 600px */
+@media screen and (min-width: 526px) and (max-width: 600px) {
+  section {
+    width: 525px;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 35px;
+  }
+
+  header {
+    margin-bottom: 50px;
+    padding-top: 35px;
+  }
+
+  .right button {
+    font-size: 16px;
+  }
+
+  .testimony {
+    width: 100%;
+    padding: 45px 20px;
+  }
+
+  .testimony h1 {
+    width: 100%;
+    font-size: 22px;
+  }
+
+  .parameters {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .content h1 {
+    width: 364px;
+    margin-bottom: 45px;
+  }
+
+  .content p {
+    font-size: 16px;
+    margin-bottom: 46px;
+  }
+
+  label {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  input {
+    font-size: 16px;
+    margin-bottom: 27px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* MEDIA QUERIES */
+/* FOR SCREENS 601px TO 685px */
+@media screen and (min-width: 601px) and (max-width: 685px) {
+  section {
+    width: 600px;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 35px;
+  }
+
+  header {
+    margin-bottom: 50px;
+    padding-top: 35px;
+  }
+
+  .right button {
+    font-size: 16px;
+  }
+
+  .testimony {
+    width: 100%;
+    padding: 45px 40px;
+  }
+
+  .testimony h1 {
+    width: 100%;
+    font-size: 22px;
+  }
+
+  .parameters {
+    width: 100%;
+    padding: 0 40px;
+  }
+
+  .content h1 {
+    width: 417px;
+    margin-bottom: 45px;
+  }
+
+  .content p {
+    font-size: 16px;
+    margin-bottom: 46px;
+  }
+
+  label {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  input {
+    font-size: 16px;
+    margin-bottom: 27px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* MEDIA QUERIES */
+/* FOR SCREENS 686px TO 767px */
+@media screen and (min-width: 686px) and (max-width: 767px) {
+  section {
+    width: 685px;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 55px;
+  }
+
+  header {
+    margin-bottom: 50px;
+    padding-top: 35px;
+  }
+
+  .right button {
+    font-size: 16px;
+  }
+
+  .testimony {
+    width: 100%;
+    padding: 45px 40px;
+  }
+
+  .testimony h1 {
+    width: 100%;
+    font-size: 22px;
+  }
+
+  .parameters {
+    width: 100%;
+    padding: 0 40px;
+  }
+
+  .content h1 {
+    width: 476px;
+    margin-bottom: 45px;
+  }
+
+  .content p {
+    font-size: 16px;
+    margin-bottom: 46px;
+  }
+
+  label {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  input {
+    font-size: 16px;
+    margin-bottom: 27px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* MEDIA QUERIES */
+/* FOR SCREENS 768px TO 840px */
+@media screen and (min-width: 768px) and (max-width: 840px) {
+  section {
+    width: 768px;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  header {
+    margin-bottom: 50px;
+    padding-top: 40px;
+  }
+
+  .right button {
+    font-size: 18px;
+  }
+
+  .testimony {
+    width: 100%;
+    padding: 55px 50px;
+  }
+
+  .testimony h1 {
+    width: 100%;
+    font-size: 24px;
+  }
+
+  .parameters {
+    width: 100%;
+    padding: 0 50px;
+  }
+
+  .content h1 {
+    width: 650px;
+    margin-bottom: 45px;
+    font-size: 34px;
+  }
+
+  .content p {
+    font-size: 18px;
+    margin-bottom: 46px;
+  }
+
+  form{
+    width: 535px;
+  }
+
+  label {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  input {
+    font-size: 18px;
+    margin-bottom: 27px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* MEDIA QUERIES */
+/* FOR SCREENS 841px TO 915px */
+@media screen and (min-width: 841px) and (max-width: 915px) {
+  section {
+    width: 840px;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  header {
+    margin-bottom: 50px;
+    padding-top: 40px;
+  }
+
+  .right button {
+    font-size: 18px;
+  }
+
+  .testimony {
+    width: 100%;
+    padding: 55px 50px;
+  }
+
+  .testimony h1 {
+    width: 100%;
+    font-size: 24px;
+  }
+
+  .parameters {
+    width: 100%;
+    padding: 0 50px;
+  }
+
+  .content h1 {
+    width: 650px;
+    margin-bottom: 45px;
+    font-size: 34px;
+  }
+
+  .content p {
+    font-size: 18px;
+    margin-bottom: 46px;
+  }
+
+  form{
+    width: 535px;
+  }
+
+  label {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  input {
+    font-size: 18px;
+    margin-bottom: 27px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* MEDIA QUERIES */
+/* FOR SCREENS 916px TO 990px */
+@media screen and (min-width: 916px) and (max-width: 990px) {
+  section {
+    width: 915px;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  header {
+    margin-bottom: 50px;
+    padding-top: 40px;
+  }
+
+  .right button {
+    font-size: 18px;
+  }
+
+  .testimony {
+    width: 100%;
+    padding: 55px 50px;
+  }
+
+  .testimony h1 {
+    width: 100%;
+    font-size: 24px;
+  }
+
+  .parameters {
+    width: 100%;
+    padding: 0 50px;
+  }
+
+  .content h1 {
+    width: 650px;
+    margin-bottom: 45px;
+    font-size: 34px;
+  }
+
+  .content p {
+    font-size: 18px;
+    margin-bottom: 46px;
+  }
+
+  form{
+    width: 535px;
+  }
+
+  label {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  input {
+    font-size: 18px;
+    margin-bottom: 27px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* MEDIA QUERIES */
+/* FOR SCREENS 991px TO 1065px */
+@media screen and (min-width: 991px) and (max-width: 1065px) {
+  section {
+    width: 990px;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  header {
+    margin-bottom: 50px;
+    padding-top: 40px;
+  }
+
+  .right button {
+    font-size: 18px;
+  }
+
+  .testimony {
+    width: 100%;
+    padding: 55px 50px;
+  }
+
+  .testimony h1 {
+    width: 100%;
+    font-size: 24px;
+  }
+
+  .parameters {
+    width: 100%;
+    padding: 0 50px;
+  }
+
+  .content h1 {
+    width: 650px;
+    margin-bottom: 45px;
+    font-size: 34px;
+  }
+
+  .content p {
+    font-size: 18px;
+    margin-bottom: 46px;
+  }
+
+  form{
+    width: 535px;
+  }
+
+  label {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  input {
+    font-size: 18px;
+    margin-bottom: 27px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* MEDIA QUERIES */
+/* FOR SCREENS 1066px TO 1140px */
+@media screen and (min-width: 1066px) and (max-width: 1140px) {
+  section {
+    width: 1065px;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  header {
+    margin-bottom: 50px;
+    padding-top: 40px;
+  }
+
+  .right button {
+    font-size: 18px;
+  }
+
+  .testimony {
+    width: 100%;
+    padding: 55px 50px;
+  }
+
+  .testimony h1 {
+    width: 100%;
+    font-size: 24px;
+  }
+
+  .parameters {
+    width: 100%;
+    padding: 0 50px;
+  }
+
+  .content h1 {
+    width: 650px;
+    margin-bottom: 45px;
+    font-size: 34px;
+  }
+
+  .content p {
+    font-size: 18px;
+    margin-bottom: 46px;
+  }
+
+  form{
+    width: 535px;
+  }
+
+  label {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  input {
+    font-size: 18px;
+    margin-bottom: 27px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* MEDIA QUERIES */
+/* FOR SCREENS 1141px TO 1439px */
+@media screen and (min-width: 1141px) and (max-width: 1439px) {
+  section {
+    width: 1140px;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  header {
+    margin-bottom: 50px;
+    padding-top: 40px;
+  }
+
+  .right button {
+    font-size: 18px;
+  }
+
+  .testimony {
+    width: 100%;
+    padding: 55px 50px;
+  }
+
+  .testimony h1 {
+    width: 100%;
+    font-size: 24px;
+  }
+
+  .parameters {
+    width: 100%;
+    padding: 0 50px;
+  }
+
+  .content h1 {
+    width: 650px;
+    margin-bottom: 45px;
+    font-size: 34px;
+  }
+
+  .content p {
+    font-size: 18px;
+    margin-bottom: 46px;
+  }
+
+  form{
+    width: 535px;
+  }
+
+  label {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  input {
+    font-size: 18px;
+    margin-bottom: 27px;
+  }
+}
