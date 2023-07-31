@@ -51,6 +51,10 @@ header {
   color: #5a5a5a;
 }
 
+.right a{
+  text-decoration: none;
+}
+
 #create {
   background-color: #000000;
   color: #ffffff;
