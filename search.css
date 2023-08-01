@@ -114,6 +114,22 @@ input:focus {
   font-weight: 600;
 }
 
+.input-div ul{
+  background-color: #ffffff;
+  width: 254px;
+  margin-top: 15px;
+}
+
+.input-div ul > li{
+  list-style-type: none;
+  padding: 15px;
+}
+
+.input-div ul > li a{
+  text-decoration: none;
+  color: #000000;
+}
+
 .span-div {
   margin-top: 20px;
   border-bottom: 2px solid #85827D;
