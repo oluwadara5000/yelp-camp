@@ -44,3 +44,27 @@ document.addEventListener("DOMContentLoaded", function () {
   // This block triggers an event when something is searched and the enter key is pressed
   document.getElementById("searchInput").addEventListener("input", search);
 });
+
+
+
+// NAVIGATION MENU
+var openPanel = document.getElementById("open-panel");
+var panel = document.getElementById("panel");
+var panelList = document.getElementById("panel-list");
+var closePanel = document.getElementById("close-panel");
+
+// OPEN HAMBURGER MENU 
+openPanel.addEventListener("click", function () {
+  document.getElementById("panel").style.width = "250px";
+  document.getElementById("panel").style.padding = "25px";
+  document.getElementById("panel-list").style.display = "flex";
+  document.getElementById("close-panel").style.display = "block";
+});
+
+// CLOSE HAMBURGER MENU
+closePanel.addEventListener("click", function () {
+  document.getElementById("panel").style.width = "0";
+  document.getElementById("panel").style.padding = "0";
+  document.getElementById("panel-list").style.display = "none";
+  document.getElementById("close-panel").style.display = "none";
+});

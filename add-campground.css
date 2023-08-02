@@ -20,6 +20,7 @@ section {
   background-color: #ffffff;
   padding: 0 150px;
   padding-bottom: 45px;
+  position: relative;
 }
 
 header {
@@ -52,6 +53,39 @@ header {
 }
 
 .navigation-bar {
+  display: none;
+}
+
+.panel{
+  background-color: #F9F6F1;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  height: 200px;
+  width: 0;
+  transition: 0.5s ease-in-out;
+  z-index: 100;
+}
+
+.panel ul {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  display: none;
+}
+
+.panel ul > li {
+  list-style-type: none;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+#close-panel {
+  margin-bottom: 60px;
+  display: none;
+}
+
+.fa-solid {
   display: none;
 }
 
