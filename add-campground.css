@@ -84,6 +84,11 @@ header {
   font-size: 18px;
 }
 
+.panel ul > li a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
 #close-panel {
   margin-bottom: 60px;
   display: none;
