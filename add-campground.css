@@ -45,6 +45,10 @@ header {
   font-size: 18px;
 }
 
+.left a {
+  text-decoration: none;
+}
+
 .right button {
   background-color: #ffffff;
   border: 0;
@@ -57,7 +61,7 @@ header {
 }
 
 .panel{
-  background-color: #F9F6F1;
+  background-color: #000000;
   position: absolute;
   top: 100px;
   right: 0;
